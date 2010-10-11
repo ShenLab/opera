@@ -74,11 +74,37 @@ function print_index(){
 .hint {
 color: grey
 }
+
+body {
+  font-family: Georgia, serif;
+   padding: 60px;
+}
+
+h3 {
+  font-family: Helvetica, Sans-serif;
+}
+
 --></style>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-400081-7']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
 </head>
 <body>
 <center>
-<h4>Optimal design and Power Estimation for Rare variant Association (OPERA)</h4>
+<h3>Optimal design and Power Estimation for Rare variant Association (OPERA)</h3>
 </center>
 <label for="distibution">Distribution of depth coverage:</label>
 <select id="distribution" onchange="ondistributionchange()">
